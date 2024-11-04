@@ -1,0 +1,61 @@
+$date
+  Mon Oct 28 18:41:59 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module test_maximum $end
+$comment sample0 is not handled $end
+$comment sample15 is not handled $end
+$var integer 32 ! null_max $end
+$var integer 32 " max $end
+$scope module null_dut $end
+$comment sample is not handled $end
+$var integer 32 # max $end
+$upscope $end
+$scope module dut $end
+$comment sample is not handled $end
+$var integer 32 $ max $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b10000000000000000000000000000000 !
+b1 "
+b10000000000000000000000000000000 #
+b1 $
+#5000000
+b11111 "
+b11111 $
+#10000000
+b101000 "
+b101000 $
+#15000000
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 $
+#20000000
+b1 "
+b1 $
+#25000000
+b11111 "
+b11111 $
+#30000000
+b101000 "
+b101000 $
+#35000000
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 $
+#40000000
+b1 "
+b1 $
+#45000000
+b11111 "
+b11111 $
+#50000000
+b101000 "
+b101000 $

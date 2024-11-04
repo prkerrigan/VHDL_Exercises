@@ -1,0 +1,140 @@
+v 4
+file . "chapter 4/ex13/decode3to8.vhdl" "8f89efca6107988d66c9be5ec142ec3521fa1e4a" "20241029164218.927":
+  entity decoder at 1( 0) + 0 on 11;
+  architecture behav of decoder at 12( 220) + 0 on 12;
+file . "chapter 4/ex13/test_decode3to8.vhdl" "576eebe2e946ffb03f70e25a3505fa0aa8921519" "20241029164218.927":
+  package tests at 1( 0) + 0 on 13;
+  entity test_decode3to8 at 28( 1068) + 0 on 14;
+  architecture test of test_decode3to8 at 31( 1107) + 0 on 15;
+file . "chapter 4/ex12/and_or_invert.vhdl" "443691f60feb9fb972dad61b5acb4662e65df77f" "20241029164217.858":
+  entity and_or_invert at 1( 0) + 0 on 4;
+  architecture behav of and_or_invert at 11( 175) + 0 on 4;
+file . "chapter 4/ex12/test_and_or_invert.vhdl" "f9aa392b913b3e33179f005732d45121b2ac56e9" "20241029164217.858":
+  entity test_and_or_invert at 1( 0) + 0 on 4;
+  architecture test of test_and_or_invert at 4( 42) + 0 on 4;
+file . "chapter 4/ex11/test_maximum.vhdl" "1500f861a60065e32a88663cfc450b5effe9c374" "20241029164217.858":
+  entity test_maximum at 1( 0) + 0 on 4;
+  architecture test of test_maximum at 4( 49) + 0 on 4;
+file . "chapter 4/ex11/maximum.vhdl" "7c588bc2bbc68735b287493f8ab7277477cf2f6f" "20241029164217.858":
+  entity maximum at 1( 0) + 0 on 4;
+  architecture behav of maximum at 8( 119) + 0 on 4;
+file . "chapter 4/ex10/test_encoder.vhdl" "60e5e0beae0df785ea61b64f422361afe3e8c281" "20241029164217.858":
+  entity test_encoder at 1( 0) + 0 on 4;
+  architecture test of test_encoder at 4( 49) + 0 on 4;
+file . "chapter 4/ex10/encoder.vhdl" "2f8f86be4faf876100a51aa5f4a9766128bd7fb2" "20241029164217.858":
+  entity encoder at 1( 0) + 0 on 4;
+  architecture behav of encoder at 9( 162) + 0 on 4;
+file . "chapter 4/ex9/test_register.vhdl" "d5339ed5a0b480bfae5c817ed96e292000b0acf7" "20241029164217.858":
+  entity test_register at 1( 0) + 0 on 4;
+  architecture test of test_register at 4( 51) + 0 on 4;
+file . "chapter 4/ex9/register_file.vhdl" "0f3395f460d9cc060e096fc6db52051e5988a207" "20241029164217.858":
+  package dtypes at 1( 0) + 0 on 4;
+  entity register_file at 8( 225) + 0 on 4;
+  architecture behav of register_file at 20( 442) + 0 on 4;
+file . "chapter 4/ex7/test_repack.vhdl" "e22021fa13147605e4eed517fd0a3973d744a5ea" "20241029164217.857":
+  entity test_repack at 1( 0) + 0 on 4;
+  architecture test of test_repack at 4( 47) + 0 on 4;
+file . "chapter 4/ex7/repack8to32a.vhdl" "728a830a87e88aa10ca1ec62bd3e2fa271546e8c" "20241029164217.857":
+  entity repack8to32a at 1( 0) + 0 on 4;
+  architecture cycle of repack8to32a at 8( 140) + 0 on 4;
+file . "chapter 4/ex6/test_trace.vhdl" "213d8885af9d2cd3641cda76a2a1a0cea29da9eb" "20241029164217.857":
+  entity test_trace at 1( 0) + 0 on 4;
+  architecture test of test_trace at 4( 45) + 0 on 4;
+file . "chapter 4/ex6/trace.vhdl" "a5e0fad76ed567501218dec5009650c331532de1" "20241029164217.857":
+  entity trace at 1( 0) + 0 on 4;
+  architecture behav of trace at 8( 106) + 0 on 4;
+file . "chapter 4/ex3/test_diskette.vhdl" "3626f39bd36e549c1a052e92bbc52d9ce31c1823" "20241029164217.857":
+  entity test_diskette at 1( 0) + 0 on 4;
+  architecture test of test_diskette at 4( 51) + 0 on 4;
+file . "chapter 4/ex3/diskette.vhdl" "1e1dad3e8e285ea8f1f94f6c564d139574ddafd3" "20241029164217.857":
+  package diskette at 1( 0) + 0 on 4;
+  entity sector_tracker at 20( 483) + 0 on 4;
+  architecture behav of sector_tracker at 28( 629) + 0 on 4;
+file . "chapter 3/ex15/test_bench.vhdl" "1b1886eabfbeed0335aa3121290e19b78c7c9a4e" "20241029164217.857":
+  entity test_bench at 1( 0) + 0 on 4;
+  architecture test_clk of test_bench at 4( 45) + 0 on 4;
+  architecture test_clk_errors of test_bench at 16( 269) + 0 on 4;
+file . "chapter 3/ex11/test_float_ALU.vhdl" "1ce0865afdcd728a48bf45c3dbc1ad0eb9a70b7e" "20241029164217.856":
+  entity test_float_alu at 1( 0) + 0 on 4;
+  architecture test of test_float_alu at 4( 53) + 0 on 4;
+file . "chapter 3/ex11/float_ALU.vhdl" "7ff289631de01426e56734ed1380f708f5e65115" "20241029164217.856":
+  entity floating_alu at 1( 0) + 0 on 4;
+  architecture behav of floating_alu at 9( 137) + 0 on 4;
+file . "chapter 2/ex11/test_integrator.vhdl" "08447fd77e50659c964b2997a6000205e968900f" "20241029164217.856":
+  entity test_integrator at 1( 0) + 0 on 4;
+  architecture test of test_integrator at 4( 55) + 0 on 4;
+file . "chapter 2/ex9/test_counter.vhdl" "4a9f01f32b6837cef948a6c9daeb3df136e8cbc2" "20241029164217.856":
+  entity test_counter at 1( 0) + 0 on 4;
+  architecture test of test_counter at 4( 49) + 0 on 4;
+file . "chapter 2/ex9/counter.vhdl" "f3c523a5656d4e741a59c5e25372a0eb704dc3f3" "20241029164217.856":
+  entity counter at 1( 0) + 0 on 4;
+  architecture behav of counter at 7( 107) + 0 on 4;
+file . "chapter 1/ex11/test_mux2x4.vhdl" "53d80e5d44975b5827a2eeaa24c593a81a7440b4" "20241029164217.855":
+  entity test_mux2x4 at 1( 0) + 0 on 4;
+  architecture test of test_mux2x4 at 4( 47) + 0 on 4;
+file . "chapter 1/ex11/mux2x4.vhdl" "782b49bbbe72f079924a875299a700327a2a2f42" "20241029164217.855":
+  entity mux2x4 at 1( 0) + 0 on 4;
+  architecture struct of mux2x4 at 7( 137) + 0 on 4;
+file . "chapter 1/ex10/test_mux2.vhdl" "43e457f0475c82e89e7e258adb25b20697db34f0" "20241029164217.855":
+  entity test_mux2 at 1( 0) + 0 on 4;
+  architecture test of test_mux2 at 4( 43) + 0 on 4;
+file . "chapter 1/ex10/mux2.vhdl" "b581bafaca1589fc9ea282251bbd4fb7232dff5e" "20241029164217.855":
+  entity mux2 at 1( 0) + 0 on 4;
+  architecture behav of mux2 at 7( 94) + 0 on 4;
+file . "work4.vhdl" "4d95ca7c57c5c20912fcabc55044dd8d26e48c41" "20241029164217.855":
+  package time_vector_sampling at 3( 14) + 0 on 4;
+file . "test_bench4.vhdl" "03760dad50af2d053056c5f2c3dfbeb86b7b21e0" "20241029164217.855":
+  entity test_bench4 at 1( 0) + 0 on 4;
+file . "chapter 2/ex10/ALU.vhdl" "71c0fda59019f24fc9be4d446bced8f653ddfb75" "20241029164217.857":
+  entity alu at 1( 0) + 0 on 4;
+  architecture behav of alu at 13( 213) + 0 on 4;
+file . "chapter 2/ex10/test_ALU.vhdl" "169d43fd496f54072dc5f00aaab251298936d270" "20241029164217.857":
+  entity test_alu at 1( 0) + 0 on 4;
+  architecture test of test_alu at 8( 111) + 0 on 4;
+file . "chapter 2/ex11/integrator.vhdl" "c08ea9d5f0a3cfa105a92af25ca3991df629d3d4" "20241029164217.856":
+  entity integrator at 1( 0) + 0 on 4;
+  architecture behav of integrator at 8( 132) + 0 on 4;
+file . "chapter 2/ex13/tristate.vhdl" "d673f437f626847dc6de976f243edd1711d6707f" "20241029164217.856":
+  entity tristate_buffer at 1( 0) + 0 on 4;
+  architecture behav of tristate_buffer at 10( 182) + 0 on 4;
+file . "chapter 2/ex13/test_tristate.vhdl" "8a40679ebea1d7b06a32ed8a8dd6247881b27e07" "20241029164217.856":
+  entity test_tristate at 1( 0) + 0 on 4;
+  architecture test of test_tristate at 4( 51) + 0 on 4;
+file . "chapter 3/ex6&7/exp.vhdl" "5885a5d18a047f12762816634fc005362300786b" "20241029164217.856":
+  entity exp at 1( 0) + 0 on 4;
+  architecture series of exp at 7( 91) + 0 on 4;
+  architecture bounded of exp at 27( 529) + 0 on 4;
+file . "chapter 3/ex6&7/test_exp.vhdl" "916407287066bcb063c0931245ab0ac04e6444e0" "20241029164217.856":
+  entity test_exp at 1( 0) + 0 on 4;
+  architecture test of test_exp at 3( 40) + 0 on 4;
+file . "chapter 3/ex10/limiter.vhdl" "6dadea8587521781368cd4cbda5e213724ffb3d6" "20241029164217.856":
+  entity limiter at 1( 0) + 0 on 4;
+  architecture behav of limiter at 8( 159) + 0 on 4;
+file . "chapter 3/ex10/test_limiter.vhdl" "a125176615e29a03aea6f5a920e1c1e2304ac8bd" "20241029164217.856":
+  entity test_limiter at 1( 0) + 0 on 4;
+  architecture test of test_limiter at 4( 49) + 0 on 4;
+file . "chapter 3/ex12&13/counter16.vhdl" "80bda0775b9f0c97ac29b8143884adfdf639c027" "20241029164217.856":
+  package int_types at 1( 0) + 0 on 4;
+  entity count_down_16 at 6( 123) + 0 on 4;
+  architecture behav of count_down_16 at 16( 306) + 0 on 4;
+file . "chapter 3/ex12&13/test_counter16.vhdl" "5207dc37b55442d7cae1227159b57afa90ac9b25" "20241029164217.856":
+  entity test_counter16 at 1( 0) + 0 on 4;
+  architecture test_count of test_counter16 at 4( 54) + 0 on 4;
+file . "chapter 3/ex14/average16.vhdl" "9a4e4f522cb994493a51b5950c8391b3c47f1641" "20241029164217.856":
+  entity average16 at 1( 0) + 0 on 4;
+  architecture behav of average16 at 9( 135) + 0 on 4;
+file . "chapter 3/ex14/test_average16.vhdl" "120eacc6df2f62cb6fe2fc0543cf5b180f5bc4e8" "20241029164217.856":
+  entity test_average16 at 1( 0) + 0 on 4;
+  architecture test of test_average16 at 4( 53) + 0 on 4;
+file . "chapter 4/ex1/average_30.vhdl" "0c33da9ed311e4a237a90b0319fcd375a81cf33e" "20241029164217.857":
+  entity average_30 at 1( 0) + 0 on 4;
+  architecture behavioral of average_30 at 8( 136) + 0 on 4;
+file . "chapter 4/ex1/test_average_30.vhdl" "142344ac112346f45f0bc40b020d74c4fed33901" "20241029164217.857":
+  entity test_average_30 at 1( 0) + 0 on 4;
+  architecture test of test_average_30 at 4( 55) + 0 on 4;
+file . "chapter 4/ex2/std_ulogic_to_bit_vector.vhdl" "dc91aba5e0be7e71e880ac2e4c0adba50b351bbd" "20241029164217.857":
+  entity vector_std_ulogic_to_bit at 1( 0) + 0 on 4;
+  architecture behav of vector_std_ulogic_to_bit at 11( 198) + 0 on 4;
+file . "chapter 4/ex2/test_std_ulogic_to_bit_vector.vhdl" "b705bac6e831b6f950da538f4ffdde25cef6361c" "20241029164217.857":
+  entity test_std_ulogic_to_bit_vector at 1( 0) + 0 on 4;
+  architecture test of test_std_ulogic_to_bit_vector at 4( 83) + 0 on 4;

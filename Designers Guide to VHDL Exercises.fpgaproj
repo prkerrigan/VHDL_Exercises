@@ -1,0 +1,41 @@
+{
+  "Include": [
+    "*.vhd",
+    "*.vhdl",
+    "*.v",
+    "*.vcd",
+    "vhdl_ls.toml",
+    "Notes1.md"
+  ],
+  "Exclude": [
+    "build"
+  ],
+  "Toolchain": "Yosys",
+  "Loader": "OpenFpgaLoader",
+  "TestBenches": [
+    "test_bench.vhdl",
+    "test_bench4.vhdl",
+    "chapter 2/ex9/test_counter.vhdl",
+    "chapter 1/ex11/test_mux2x4.vhdl",
+    "chapter 1/ex10/test_mux2.vhdl",
+    "chapter 2/ex10/test_ALU.vhdl",
+    "chapter 2/ex11/test_integrator.vhdl",
+    "chapter 2/ex13/test_tristate.vhdl",
+    "chapter 3/ex6\u00267/test_exp.vhdl",
+    "chapter 3/ex10/test_limiter.vhdl",
+    "chapter 3/ex11/test_float_ALU.vhdl",
+    "chapter 3/ex12\u002613/test_counter16.vhdl",
+    "chapter 3/ex14/test_average16.vhdl",
+    "chapter 3/ex15/test_bench.vhdl",
+    "chapter 4/test_average_30.vhdl",
+    "chapter 4/ex2/test_std_ulogic_to_bit_vector.vhdl",
+    "chapter 4/ex3/test_diskette.vhdl",
+    "chapter 4/ex6/test_trace.vhdl",
+    "chapter 4/ex7/test_repack.vhdl",
+    "chapter 4/ex9/test_register.vhdl",
+    "chapter 4/ex10/test_encoder.vhdl",
+    "chapter 4/ex11/test_maximum.vhdl",
+    "chapter 4/ex12/test_and_or_invert.vhdl",
+    "chapter 4/ex13/test_decode3to8.vhdl"
+  ]
+}

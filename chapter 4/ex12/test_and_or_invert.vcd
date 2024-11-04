@@ -1,0 +1,61 @@
+$date
+  Mon Oct 28 19:17:05 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module test_and_or_invert $end
+$var reg 4 ! a[0:3] $end
+$var reg 4 " b[0:3] $end
+$var reg 1 # y $end
+$scope module dut $end
+$comment a is not handled $end
+$comment b is not handled $end
+$var reg 1 $ y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1100 !
+b0011 "
+1#
+1$
+#5000000
+b1000 "
+0#
+0$
+#10000000
+b1111 !
+#15000000
+b1111 "
+#20000000
+b0000 !
+1#
+1$
+#25000000
+b1100 !
+b0011 "
+#30000000
+b1000 "
+0#
+0$
+#35000000
+b1111 !
+#40000000
+b1111 "
+#45000000
+b0000 !
+1#
+1$
+#50000000
+b1100 !
+b0011 "

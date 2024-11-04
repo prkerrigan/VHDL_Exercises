@@ -1,0 +1,10 @@
+{
+  "OpenSignals": [
+    {
+      "Id": "!",
+      "DataType": 2,
+      "AutomaticFixedPointShift": false,
+      "FixedPointShift": 0
+    }
+  ]
+}
